@@ -1,0 +1,12 @@
+# Atalhos úteis para uso inicial do Git/GitHub  
+
+ - git init: inclui .git no diretório
+ - git add: inicia o versionamento (de um arquivo Untracked ou Modified, passa para Staged - pronto para ser commitado)
+   - git add *: adiciona todas as modificações para o versionamento.
+   - git add _arquivo_ _pasta_: inicia o versionamento do arquivo para ser commitado, quando o arquivo foi movido de pastas.
+ - git commit: cria um commit (o arquivo passa de Staged para o estado "inicial" Unmodified) 
+   - git commit -m "_mensagem_": cria um commit e inclui uma descrição sobre as alterações commitadas.
+ - git status: mostra se existe arquivos para commitar, se arquivos foram deletados etc.
+ - git remote -v: mostra a lista de repositórios remotos que tenho cadastrados.
+ - git pull origin main: pega o que tem no repositório do Git Hub para comparar e modificar no repositório local.
+ - git clone _URL do repositório a ser clonado_: baixa um repositório do Git Hub.
